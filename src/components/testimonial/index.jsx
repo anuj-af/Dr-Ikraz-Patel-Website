@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./testimonial.module.css";
 import testimonial from "../../assets/images/testimonial.png";
-import placeholder from "../../../public/images/placeholder.svg"
+import placeholder from "../../assets/images/placeholder.svg"
 
 import { quotes } from "../../data/quotes";
 

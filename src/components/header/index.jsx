@@ -3,7 +3,7 @@ import classes from "./header.module.css";
 import Button from "../button";
 
 import headerImg from "../../assets/images/header-img.png";
-import placeholder from "../../../public/images/placeholder.svg"
+import placeholder from "../../assets/images/placeholder.svg"
 
 const Header = () => {
   return (

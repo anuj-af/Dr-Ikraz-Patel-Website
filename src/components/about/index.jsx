@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 import classes from "./about.module.css";
 import about from "../../assets/images/about.png";
-import placeholder from "../../../public/images/placeholder.svg"
+import placeholder from "../../assets/images/placeholder.svg"
 
 import Button from "../button";
 

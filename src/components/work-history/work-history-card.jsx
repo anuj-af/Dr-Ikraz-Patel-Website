@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./work-history-card.module.css";
-import placeholder from "../../../public/images/placeholder.svg"
+import placeholder from "../../assets/images/placeholder.svg"
 
 const WorkHistoryCard = ({ isCurrent, img, time, title, desc }) => {
   return (
