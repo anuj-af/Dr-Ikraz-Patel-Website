@@ -6,7 +6,7 @@ import EventCard from "./event-card";
 
 const LatestEventsShow = () => {
   return (
-    <div className={classes["latest-show"]}>
+    <div className={classes["latest-show"]} id="article">
       <div className={`${classes["latest-show-container"]} container`}>
         <div className={classes["heading-wrapper"]}>
           <div className={classes["content-wrapper"]}>

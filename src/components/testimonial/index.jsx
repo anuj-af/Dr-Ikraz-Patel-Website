@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./testimonial.module.css";
-import testimonial from "../../assets/images/testimonial.png";
+import testimonial from "../../assets/images/testimonial1.png";
 import placeholder from "../../assets/images/placeholder.svg"
 
 import { quotes } from "../../data/quotes";
@@ -18,7 +18,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className={classes["testimonial"]}>
+    <div className={classes["testimonial"]} id="testimonial">
       <div className={`${classes["testimonial-container"]} container`}>
         <div className={classes["testimonial-quote"]}>
           <p className={classes["quote-subtitle"]}>
@@ -47,7 +47,7 @@ const Testimonial = () => {
         </div>
 
         <div className={classes["testimonial-img-parent"]}>
-          <img src={placeholder} alt="" className="testimonial-img" />
+          <img src={testimonial} alt="" className="testimonial-img" />
         </div>
       </div>
     </div>

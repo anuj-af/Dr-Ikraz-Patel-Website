@@ -4,9 +4,9 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import classes from "./work-history.module.css";
 import WorkHistoryCard from "./work-history-card";
 
-import work1 from "../../assets/images/work-1.png";
-import work2 from "../../assets/images/work-2.png";
-import work3 from "../../assets/images/work-3.png";
+import work1 from "../../assets/images/work-5.png";
+import work2 from "../../assets/images/work-6.png";
+import work3 from "../../assets/images/work-4.png";
 
 const WorkHistory = () => {
   return (

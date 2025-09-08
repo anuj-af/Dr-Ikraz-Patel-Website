@@ -1,4 +1,5 @@
 import classes from "./logo.module.css";
+import logo from "../../assets/images/logo2.png"
 
 const Logo = ({ variant = "dark" }) => {
   return (
@@ -8,8 +9,7 @@ const Logo = ({ variant = "dark" }) => {
         variant === "dark" ? classes["light"] : classes["dark"]
       }`}
     >
-      IKRAZ <br />
-      PATEL.
+      <img src={logo} alt="Logo" />
     </a>
   );
 };

@@ -7,9 +7,9 @@ import placeholder from "../../assets/images/placeholder.svg"
 
 import Button from "../button";
 
-import logo1 from "../../assets/icons/featured-1.svg";
-import logo2 from "../../assets/icons/featured-2.svg";
-import logo3 from "../../assets/icons/featured-3.svg";
+import logo1 from "../../assets/icons/featured-4.png";
+import logo2 from "../../assets/icons/featured-5.png";
+import logo3 from "../../assets/icons/featured-6.png";
 
 const About = () => {
   return (
@@ -34,9 +34,6 @@ const About = () => {
               <Button>
                 Send Message <BsArrowRight />
               </Button>
-              <Button variant="secondary">
-                Download cv <FiDownload />
-              </Button>
             </div>
           </div>
         </div>
@@ -45,9 +42,9 @@ const About = () => {
           <p className={classes["featured-heading"]}>Featured by:</p>
 
           <div className={classes["logo-wrapper"]}>
-            <img src={placeholder} className={classes["logo"]} />
-            <img src={placeholder} className={classes["logo"]} />
-            <img src={placeholder} className={classes["logo"]} />
+            <img src={logo1} className={classes["logo"]} />
+            <img src={logo2} className={classes["logo"]} />
+            <img src={logo3} className={classes["logo"]} />
           </div>
         </div>
       </div>

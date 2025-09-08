@@ -1,9 +1,15 @@
 .logo {
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 1.5rem;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 26px;
   width: 20rem;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
 }
 
 .dark {
@@ -12,6 +18,5 @@
 }
 
 .light {
-  background-color: var(--black-color);
   color: var(--white-color);
 }

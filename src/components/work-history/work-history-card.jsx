@@ -1,11 +1,10 @@
 import React from "react";
 import classes from "./work-history-card.module.css";
-import placeholder from "../../assets/images/placeholder.svg"
 
 const WorkHistoryCard = ({ isCurrent, img, time, title, desc }) => {
   return (
     <div className={classes["work-history-card"]}>
-      <img src={placeholder} alt="Working History" />
+      <img src={img} alt="Working History" />
       <div className={classes["history-card-content"]}>
         <h4
           className={`${classes["history-card-time"]} ${

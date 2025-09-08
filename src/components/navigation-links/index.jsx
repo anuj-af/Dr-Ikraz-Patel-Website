@@ -36,13 +36,13 @@ const NavigationLinks = () => {
         </li>
         <li className={classes["nav-link-item"]}>
           <a
-            href="#cv"
-            onClick={() => handleActiveLink("CV")}
+            href="#services"
+            onClick={() => handleActiveLink("Services")}
             className={`${classes["nav-link"]} ${
-              activeLink === "CV" ? classes["active-link"] : ""
+              activeLink === "Services" ? classes["active-link"] : ""
             }`}
           >
-            CV
+            Services
           </a>
         </li>
         <li className={classes["nav-link-item"]}>
