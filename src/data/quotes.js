@@ -1,32 +1,32 @@
 export const quotes = [
   {
-    name: "Dr. Emily Smith",
-    passion: "Environmental Scientist",
+    name: "Amit Sharma",
+    passion: "Patient",
     quote:
-      "Nature speaks in a language we all can understand. We just need to listen.",
+      "Dr. Ikraz Patel provided exceptional care and truly listened to all my concerns. I felt supported throughout my treatment.",
   },
   {
-    name: "Mr. John Wick",
-    passion: "Psychiatrist Doctor",
+    name: "Neha Singh",
+    passion: "Patient",
     quote:
-      "Life is unpredictable, not everything’s in our control. But as long as you're with the right people, you can handle anything.",
+      "Thanks to Dr. Ikraz Patel and his team, my recovery was smooth and the care was very compassionate and professional.",
   },
   {
-    name: "Ms. Sarah Johnson",
-    passion: "Humanitarian Activist",
+    name: "Rajesh Kumar",
+    passion: "Patient",
     quote:
-      "Kindness is the most powerful weapon we can use to change the world.",
+      "Dr. Ikraz Patel is not only skilled but genuinely caring. His approach has greatly improved my health and wellbeing.",
   },
   {
-    name: "Prof. Michael Adams",
-    passion: "Astrophysicist",
+    name: "Sonal Patel",
+    passion: "Patient",
     quote:
-      "The universe is vast and mysterious, yet it holds the answers to questions we haven't even dreamed of asking.",
+      "The medical staff under Dr. Ikraz Patel explained everything clearly and tailored the treatment to my specific needs. I am very satisfied with the care.",
   },
   {
-    name: "Dr. Maria Rodriguez",
-    passion: "Neuroscientist",
+    name: "Vikram Joshi",
+    passion: "Patient",
     quote:
-      "The brain is the most complex and fascinating organ in the universe, yet we've only scratched the surface of its capabilities.",
+      "I am grateful for the attentive and dedicated care from Dr. Ikraz Patel. The team went above and beyond to ensure positive results.",
   },
 ];

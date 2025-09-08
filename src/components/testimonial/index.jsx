@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./testimonial.module.css";
 import testimonial from "../../assets/images/testimonial1.png";
-import placeholder from "../../assets/images/placeholder.svg"
 
 import { quotes } from "../../data/quotes";
 
@@ -22,7 +21,7 @@ const Testimonial = () => {
       <div className={`${classes["testimonial-container"]} container`}>
         <div className={classes["testimonial-quote"]}>
           <p className={classes["quote-subtitle"]}>
-            What my college says about me.
+            What my patients says about me.
           </p>
           <h2 className={classes["quote-text"]}>“{activeQuote.quote}”</h2>
 

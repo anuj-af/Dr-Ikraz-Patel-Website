@@ -2,7 +2,37 @@
   padding-block: 10rem;
   display: flex;
   justify-content: space-between;
+  align-items: top;
+}
+
+/* Added grid layout for service cards wrapper to display 3 cards per row */
+.service-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.work-his-heading-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+}
+
+.history-heading {
+  color: var(--text-color-1);
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.divider {
+  width: 20rem;
+  height: 0.1rem;
+  background: #e6e8eb;
 }
 
 .story-content {
@@ -24,8 +54,9 @@
 }
 
 .story-content-desc {
-  color: var(--text-color-2);
+  color: var(--text-color-5);
   line-height: 24px;
+  font-size: 1.7rem;
 }
 
 .actions-button {
@@ -81,7 +112,7 @@
 }
 
 .story-quote {
-  padding: 5.6rem;
+  padding: 4rem;
   border: 4px solid var(--primary-color, #ffd91a);
   background: var(--primary-shade-color);
 }
@@ -96,5 +127,5 @@
   color: var(--text-color-1);
   font-size: 2.4rem;
   line-height: 32px;
-  margin-top: 3.2rem;
+  margin-top: 3rem;
 }

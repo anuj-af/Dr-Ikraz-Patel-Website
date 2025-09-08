@@ -10,7 +10,7 @@ const LatestEventsShow = () => {
       <div className={`${classes["latest-show-container"]} container`}>
         <div className={classes["heading-wrapper"]}>
           <div className={classes["content-wrapper"]}>
-            <h2 className={classes["content-heading"]}>Latest Event & Show</h2>
+            <h2 className={classes["content-heading"]}>Latest Event & Blogs</h2>
             <div className={classes["divider"]}></div>
             <p className={classes["content-desc"]}>
               Stay updated with the latest medical insights, health tips, research breakthroughs, 
@@ -43,13 +43,13 @@ const LatestEventsShow = () => {
           />
         </div>
 
-        <div className={classes["dots-wrapper"]}>
+        {/* <div className={classes["dots-wrapper"]}>
           <div className={classes["dot"]}></div>
           <div className={`${classes["dot"]} ${classes["dot-active"]}`}></div>
           <div className={classes["dot"]}></div>
           <div className={classes["dot"]}></div>
           <div className={classes["dot"]}></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

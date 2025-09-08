@@ -1,6 +1,7 @@
 .qualification-awards {
   padding-block: 10rem;
   background-color: var(--secondary-shade-color);
+  border-bottom: solid 1px #213f68;
 }
 
 .qualification-heading-wrapper {

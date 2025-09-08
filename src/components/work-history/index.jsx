@@ -41,14 +41,14 @@ const WorkHistory = () => {
         />
       </div>
 
-      <div className={classes["work-history-arrow-wrapper"]}>
+      {/* <div className={classes["work-history-arrow-wrapper"]}>
         <button>
           <GoArrowLeft />
         </button>
         <button>
           <GoArrowRight />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
