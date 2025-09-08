@@ -44,6 +44,7 @@
 .about-img-parent {
   max-width: 20rem;
   max-height: 27.2rem;
+  background-color: var(--primary-shade-color);
 }
 
 .about-img {

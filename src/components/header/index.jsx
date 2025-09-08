@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./header.module.css";
 import Button from "../button";
 
-import headerImg from "../../assets/images/header-img.png";
+import headerImg from "../../assets/images/header-img1.png";
 import placeholder from "../../assets/images/placeholder.svg"
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <div className={classes["header-img-parent"]}>
           <img
-            src={placeholder}
+            src={headerImg}
             className={classes["header-img"]}
             alt="Header Image"
           />

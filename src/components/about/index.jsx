@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { FiDownload } from "react-icons/fi";
 
 import classes from "./about.module.css";
-import about from "../../assets/images/about.png";
+import about from "../../assets/images/about2.png";
 import placeholder from "../../assets/images/placeholder.svg"
 
 import Button from "../button";
@@ -17,7 +17,7 @@ const About = () => {
       <div className={`${classes["about"]} container`}>
         <div className={classes["about-content"]}>
           <div className={classes["about-img-parent"]}>
-            <img src={placeholder} alt="About" className={classes["about-img"]} />
+            <img src={about} alt="About" className={classes["about-img"]} />
           </div>
 
           <div className={classes["about-text-content"]}>
