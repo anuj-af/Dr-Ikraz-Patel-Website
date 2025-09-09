@@ -4,16 +4,16 @@ import { LiaComment } from "react-icons/lia";
 
 import classes from "./event-card.module.css";
 
-const EventCard = ({ date, comments, title, desc }) => {
+const EventCard = ({ title, desc }) => {
   return (
     <div className={classes["event-card"]}>
       <div className={classes["date-comments"]}>
         <div className={classes["date-wrapper"]}>
-          <CiCalendar className={classes["icon"]} /> {date}
+          <CiCalendar className={classes["icon"]} />
         </div>
 
         <div className={classes["comments-wrapper"]}>
-          <LiaComment className={classes["icon"]} /> {comments} Comments
+          <LiaComment className={classes["icon"]} />
         </div>
       </div>
 

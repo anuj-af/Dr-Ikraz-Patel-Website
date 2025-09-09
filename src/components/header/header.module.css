@@ -33,6 +33,7 @@
   font-size: 2rem;
   line-height: 2.8rem;
   max-width: 64.8rem;
+  margin-top: 1rem;
 }
 
 .header-button-wrapper {
@@ -63,3 +64,13 @@
     filter: grayscale(100%);
   }
 } */
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color-5);
+}

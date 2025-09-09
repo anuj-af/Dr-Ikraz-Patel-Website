@@ -4,9 +4,9 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import classes from "./work-history.module.css";
 import WorkHistoryCard from "./work-history-card";
 
-import work1 from "../../assets/images/work-5.png";
-import work2 from "../../assets/images/work-6.png";
-import work3 from "../../assets/images/work-4.png";
+import work1 from "../../assets/images/work-1.jpg";
+import work2 from "../../assets/images/work-2.jpeg";
+import work3 from "../../assets/images/work-3.webp";
 
 const WorkHistory = () => {
   return (
@@ -22,22 +22,23 @@ const WorkHistory = () => {
       <div className={classes["work-history-card-wrapper"]}>
         <WorkHistoryCard
           isCurrent={true}
-          img={work3}
-          time="CURRENTLY WORKING"
+          img={work1}
+          time="2024 to Present"
           title="Arthros Multispeciality Hospital, Indore"
           desc="Consulting Physician & Critical Care Specialist, providing comprehensive care, advanced cardiac diagnostics, and intensive medical management."
         />
         <WorkHistoryCard
-          img={work1}
-          time="Mar,2017 to Dec,2018"
-          title="RD Gardi Medical College & Hospital, Ujjain"
-          desc="Served as Resident Doctor, managing emergency cases, inpatient care, and clinical rounds while collaborating with multidisciplinary teams."
+          isCurrent={true}
+          img={work3}
+          time="2024 to Present"
+          title="SAIMS Medical College & Hospital, Indore"
+          desc="Senior Resident in General Medicine, focused on patient diagnosis, treatment planning, and mentoring junior staff in acute and chronic medical management."
         />
         <WorkHistoryCard
           img={work2}
-          time="Jan,2019 to March,2021"
-          title="SAIMS Medical College & Hospital, Indore"
-          desc="Senior Resident in General Medicine, focused on patient diagnosis, treatment planning, and mentoring junior staff in acute and chronic medical management."
+          time="2020 to 2023"
+          title="RD Gardi Medical College & Hospital, Ujjain"
+          desc="Served as Resident Doctor, managing emergency cases, inpatient care, and clinical rounds while collaborating with multidisciplinary teams."
         />
       </div>
 

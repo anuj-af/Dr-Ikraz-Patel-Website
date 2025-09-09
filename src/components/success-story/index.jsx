@@ -4,10 +4,10 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
 import ServiceCard from "./service-card";
 import consultationImg from "../../assets/images/consultation.jpeg";
 import echoImg from "../../assets/images/echo.png";
-import sonographyImg from "../../assets/images/sonography.png";
+import sonographyImg from "../../assets/images/sonography.jpeg";
 import xrayImg from "../../assets/images/x-ray.jpeg";
-import pathologyImg from "../../assets/images/pathology.jpeg";
-import therapyImg from "../../assets/images/therapy.jpeg";
+import pathologyImg from "../../assets/images/pathology.webp";
+import therapyImg from "../../assets/images/therapy.jpg";
 
 
 import classes from "./success-story.module.css";
