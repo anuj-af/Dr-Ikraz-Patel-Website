@@ -53,21 +53,21 @@ const QualificationAwards = () => {
             <AwardCard
               img={award1}
               count="01"
-              title="Chairperson Appointment, Central Zone APICON 2025"
-              desc="Appointed as Chairperson for the Central Zone at APICON 2025, Bhopal, leading sessions and contributing to expert panels. (March 8, 2025)"
+              title="Research Publication in Bioinformation Journal"
+              desc="Evaluating Intravenous Lignocaine, Dexamethasone, and Combination of Lignocaine-Dexamethasone on Effectiveness of Propofol-Induced Pain - August 2025."
             />
             <AwardCard
               img={award3}
               count="03"
-              title="Clinical and Metabolic Study of Thyroid Disorder"
-              desc="Research published in Journal of Cardiovascular Disease Research, Jan 2023, exploring thyroid and diabetes link."
+              title="Chairperson, Central Zone APICON"
+              desc="Appointed as Chairperson for the Central Zone at APICON 2025, held in Bhopal on March 8, 2025."
             />
           </div>
           <AwardCard
             img={award2}
             count="02"
             title="Paper Presentations at Medical Conferences"
-            desc="Presented research at RSSDI M.P. Chapter, Cardiology & Diabetology forums and Indian Society of Critical Care Medicine."
+            desc="Presented research at RSSDI M.P. Chapter - Ujjain, Cardiology, Diabetology, ECG - Bhopal and Indian Society of Critical Care Medicine - Indore."
           />
         </div>
       </div>

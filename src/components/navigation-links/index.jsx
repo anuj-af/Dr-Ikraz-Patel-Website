@@ -1,24 +1,27 @@
-import React, { useState } from "react";
-import classes from "./navigation-links.module.css";
-import Button from "../button";
+"use client"
 
-const NavigationLinks = () => {
-  const [activeLink, setActiveLink] = useState("Home");
+import { useState } from "react"
+import classes from "./navigation-links.module.css"
+import Button from "../button"
+
+const NavigationLinks = ({ isMobileMenuOpen, closeMobileMenu }) => {
+  const [activeLink, setActiveLink] = useState("Home")
 
   const handleActiveLink = (link) => {
-    setActiveLink(link);
-  };
+    setActiveLink(link)
+    if (closeMobileMenu) {
+      closeMobileMenu()
+    }
+  }
 
   return (
-    <div className={classes["nav-links-container"]}>
+    <div className={`${classes["nav-links-container"]} ${isMobileMenuOpen ? classes["mobile-menu-open"] : ""}`}>
       <ul className={classes["nav-links-parent"]}>
         <li className={classes["nav-link-item"]}>
           <a
             href="/"
             onClick={() => handleActiveLink("Home")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "Home" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "Home" ? classes["active-link"] : ""}`}
           >
             Home
           </a>
@@ -27,9 +30,7 @@ const NavigationLinks = () => {
           <a
             href="#about"
             onClick={() => handleActiveLink("About")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "About" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "About" ? classes["active-link"] : ""}`}
           >
             About
           </a>
@@ -38,9 +39,7 @@ const NavigationLinks = () => {
           <a
             href="#services"
             onClick={() => handleActiveLink("Services")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "Services" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "Services" ? classes["active-link"] : ""}`}
           >
             Services
           </a>
@@ -49,9 +48,7 @@ const NavigationLinks = () => {
           <a
             href="#education"
             onClick={() => handleActiveLink("Education")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "Education" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "Education" ? classes["active-link"] : ""}`}
           >
             Education
           </a>
@@ -60,9 +57,7 @@ const NavigationLinks = () => {
           <a
             href="#testimonial"
             onClick={() => handleActiveLink("Testimonial")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "Testimonial" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "Testimonial" ? classes["active-link"] : ""}`}
           >
             Testimonial
           </a>
@@ -71,9 +66,7 @@ const NavigationLinks = () => {
           <a
             href="#article"
             onClick={() => handleActiveLink("Article")}
-            className={`${classes["nav-link"]} ${
-              activeLink === "Article" ? classes["active-link"] : ""
-            }`}
+            className={`${classes["nav-link"]} ${activeLink === "Article" ? classes["active-link"] : ""}`}
           >
             Article
           </a>
@@ -84,7 +77,7 @@ const NavigationLinks = () => {
 
       <Button className={classes["contact-btn"]}>Contact</Button>
     </div>
-  );
-};
+  )
+}
 
-export default NavigationLinks;
+export default NavigationLinks
