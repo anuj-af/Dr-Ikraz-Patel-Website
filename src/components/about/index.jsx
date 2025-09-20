@@ -24,11 +24,12 @@ const About = () => {
             <h2 className={classes["about-name"]}>Hello, I’m Ikraz Patel.</h2>
 
             <p className={classes["about-desc"]}>
-              I am Dr. Ikraz Patel, Consultant Physician and Critical Care Specialist, with 5+ years’ experience 
+              I am Dr. Ikraz Patel, Consultant Physician and Critical Care Specialist, with 5+ years experience 
               in internal medicine and advanced cardiac imaging. I’ve served at major hospitals in Ujjain and Indore 
               and currently provide comprehensive care at Arthros Multispeciality Hospital, focusing on diagnosis, 
               critical care, and patient-centered management.
             </p>
+            <p className={classes["about-desc"]}>Specialist in: Heart, Blood Pressure, Diabetes, Brain, Thyroid, Respiratory, Joints, Liver, Kidney & Abdominal Disorders.</p>
 
             <div className={classes["about-btn-wrapper"]}>
               <Button>

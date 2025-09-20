@@ -58,3 +58,23 @@
   flex-direction: column;
   gap: 6.4rem;
 }
+
+@media(max-width: 1400px) {
+  .qualification-content{
+    padding: 2rem;
+    gap: 4rem;
+  }
+}
+
+@media(max-width: 1000px) {
+  .qualification-content{
+    padding: 2rem;
+  }
+  .qualification-content {
+    flex-direction: column-reverse;
+  }
+  .award-card-wrapper, .education-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

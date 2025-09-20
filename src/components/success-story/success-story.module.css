@@ -129,3 +129,26 @@
   line-height: 32px;
   margin-top: 3rem;
 }
+
+@media(max-width: 1400px) {
+  .success-story {
+    padding: 3rem;
+  }
+}
+
+@media(max-width: 1210px) {
+  .success-story {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .story-content {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .story-quote {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+  }
+}

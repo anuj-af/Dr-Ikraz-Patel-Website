@@ -14,7 +14,6 @@ const Header = () => {
         <div className={classes["header-content"]}>
           {showZivanta ? (
             <div>
-              <h4 className={classes["header-name"]}>💉 IKRAZ PATEL</h4>
               <h1 className={classes["header-title"]}>
                 Zivanta Health Haus, Multispeciality Clinic
               </h1>

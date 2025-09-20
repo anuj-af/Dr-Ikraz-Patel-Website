@@ -62,3 +62,12 @@
 .work-history-arrow-wrapper button:hover {
   background-color: var(--primary-color);
 }
+
+@media (max-width: 800px) {
+  .work-history-card-wrapper {
+    display: flex;
+    gap: 2.4rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
